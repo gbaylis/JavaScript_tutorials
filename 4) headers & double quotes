@@ -9,6 +9,7 @@ JS - Headers and double quotes
 <head>
 
 <meta charset="utf-8"/>
+// the title appears on the web browser tab
 <title> JavaScript - String </title>
 <script type="text/javascript">
 
