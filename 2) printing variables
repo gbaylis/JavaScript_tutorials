@@ -37,4 +37,4 @@ document.write(" and a cup of coffee for $" + coffeePrice);
 <body>
 
 </body>
-</html>
+</html> . 
