@@ -1,0 +1,39 @@
+/*
+Created by gbaylis
+Dec 8th 2019
+printing variables in JS
+*/
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title> Data Types </title>
+<script type="text/javascript">
+
+// create 2 string variables
+var bookTitle = " Computer Science";
+var storeName = " Books and Cafe";
+
+// create 2 number variables, in this case a book price and the price of a cup of coffee in dollars
+var bookPrice = 12.5;
+var coffeePrice = 1;
+
+// print out the variables, 
+// print a message, along with the store name
+document.write(" Welcome to " + storeName); 
+// create a line break, the text that comes after the line break will print on the next line
+// try typing the code without the line break to see how it looks.
+document.write("<br>");
+
+// print a message that uses both a string and number variable
+document.write(" You purchased: " + bookTitle + " for $" + bookPrice);
+document.write(" and a cup of coffee for $" + coffeePrice);
+
+
+</script>
+</head>
+<body>
+
+</body>
+</html>
