@@ -8,6 +8,7 @@ printing variables in JS
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
+// the title appears on the web browser tab
 <title> Data Types </title>
 <script type="text/javascript">
 
