@@ -9,6 +9,7 @@ JavaScript , variables
 <head>
 
 <meta charset="utf-8"/>
+// the title appears on the web browser tab
 <title> Javascript </title>
 <script type="text/javascript">
 
