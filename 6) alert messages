@@ -9,3 +9,22 @@ tutorial on alert messages
 <head>
 
 <meta charset="utf-8"/>
+<title> alert messages </title>
+
+<script type="text/javascript">
+
+// alert messages will pop up on the screen, as soon as the page loads
+function alertMessage(message){
+alert(message);
+}
+
+// this is the first message the user will see
+alertMessage(" This is the 2nd pop up message");
+
+</script>
+
+</head>
+<body>
+
+</body>
+</html>
