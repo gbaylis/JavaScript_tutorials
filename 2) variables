@@ -30,3 +30,13 @@ console.log(job);
 // then print the job to the console
 job = 'graphic designer';
 console.log(job);
+
+// when creating a variable, do not start it with a number, the program will not run
+// var 3years = 3;
+// instead, use          var years - 3;
+
+// do not use a back slash in a variable name, the JS program will not run
+// var Mack/Tony = 'Mack and Tony';
+// an example that will work
+ var mackAndTony = 'Mack and Tony';
+
