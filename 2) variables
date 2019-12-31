@@ -1,0 +1,32 @@
+/*
+I ran this JS code in a console
+Created by gbaylis
+Dec 30th 2019
+*/
+
+// create a string variable, and give it a value
+var firstName = 'Leon';
+// then print the value, using console.log
+console.log(firstName);
+
+// create a 2nd string variable
+var lastName = 'Smith';
+
+// create a number varialbe
+var age = 30;
+
+// create a boolean value
+var olderTwentyOne = true;
+// print if the age is Older then 21, and in this example, it is
+console.log(olderTwentyOne);
+
+// create an undefined string variable
+var job;
+// since job is undefined, the console will print undefined.
+console.log(job);
+
+// there is no reason to have this variable undefined, so lets define it
+// define this variable, in this case, the job is a graphic designer
+// then print the job to the console
+job = 'graphic designer';
+console.log(job);
