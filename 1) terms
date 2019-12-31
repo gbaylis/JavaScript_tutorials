@@ -1,0 +1,20 @@
+/*
+created by gbaylis
+Dec. 8th, 2019
+JavaScript , terms
+*/
+
+
+/*
+ Number = floating point numbers, whole numbers and decimals
+ 
+ String = letters and words, think of it as a string of words
+ 
+ Boolean = a true or false statment, = or == is for true, != is for false
+ 
+ Undefined: data type, that is left undefined. It would be as if you said var, but there was 
+ no number assigned to it
+ 
+ Null: as in, it does not exist
+
+*/
