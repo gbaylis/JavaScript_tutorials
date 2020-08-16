@@ -1,0 +1,14 @@
+/*
+gbaylis | Javascript
+Block Scoping
+*/
+
+(function(){
+	var age = 5;
+// IIFE - immediatley invoked function expression 	
+})();
+
+{
+	//block
+	let y = 10
+}
