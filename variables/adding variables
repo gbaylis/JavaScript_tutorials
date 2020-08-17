@@ -1,0 +1,45 @@
+/*
+gbaylis | Javascript
+
+*/
+<!DOCTYPE html>
+
+			<html lang="en">
+			<head>
+
+				<meta charset="utf-8"/>
+			<title> adding variables </title>
+
+			<script type="text/javascript">
+			// create variables, in this examples, pieces of fruit
+			var strawberries = 15;
+			var blueberries = 25;
+			var bannanas = 7;
+			// create another variable, that is the sum of the 3 pieces of fruit
+			var fruit = strawberries + blueberries + bannanas;
+
+			// take the variable that is the sum of all items, and divide them by 7, / is the symbol for division
+			// + for addition, - for subtraction and * for multiplication
+			var smoothie = fruit / 7;
+
+			// would print 6.714285714285714, but lets make it easier to read
+			// create a new variable and have it equal the variable that is divided by 7 and attach .toFixed(2), so that 2 decimal places appear on the screen
+			// try this code with other measurements and change how many decimals appear
+			var s = smoothie.toFixed(2);
+
+			// print the sum of all the items you have
+			document.write(" I have " + fruit + " pieces of fruit");
+			// create a line break, to make the text easier to read
+			document.write("<br>");
+
+			// it takes 7 pieces of fruit to make a smoothie, print a sentence saying how many smoothies you can make
+			// use s because that is the variable that is limited to 2 decimal places
+			// print the new variable with a string
+			document.write(" and with that much fruit, I can make " + s + " smoothies");
+
+			</script>
+			</head>
+			<body>
+			</body>
+			</html>			
+		
