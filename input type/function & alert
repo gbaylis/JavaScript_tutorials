@@ -1,0 +1,24 @@
+<!-- gbaylis | Javascript | function and alert -->		
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<title> Javascript - functions </title>
+	<script type="text/javascript">
+		
+// create a function, that has an alert message	
+		function makeMessage(){
+			alert('Pop up message, You are on a website');
+		}
+		
+		makeMessage();
+		</script>
+	</head>
+	<body>
+<!-- create a button, when clicked on, shows the makeMessage pop up message -->		
+		<form>
+			<input type="button" value="click me" onclick="makeMessage();">
+		</form>
+		
+	</body>
+	</html>
