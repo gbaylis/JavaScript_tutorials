@@ -1,44 +1,32 @@
 /*
 
 Created by gbaylis
-Javascript
+Javascript | variables
 */
 
-// create a string variable, and give it a value
-var firstName = 'Leon';
-// then print the value, using console.log
-console.log(firstName);
-
-// create a 2nd string variable
-var lastName = 'Smith';
-
-// create a number varialbe
-var age = 30;
-
-// create a boolean value
-var olderTwentyOne = true;
-// print if the age is Older then 21, and in this example, it is
-console.log(olderTwentyOne);
-
-// create an undefined string variable
-var job;
-// since job is undefined, the console will print undefined.
-console.log(job);
-
-// there is no reason to have this variable undefined, so lets define it
-// define this variable, in this case, the job is a graphic designer
-// then print the job to the console
-job = 'graphic designer';
-console.log(job);
-
-// when creating a variable, do not start it with a number, the program will not run
-// var 3years = 3;
-// instead, use          var years - 3;
-
-// do not use a back slash in a variable name, the JS program will not run
-// var Mack/Tony = 'Mack and Tony';
-// an example that will work
- var mackAndTony = 'Mack and Tony';
-
-
-
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<title> muh javascripts </title>
+	
+		<script type="text/javascript">
+		
+			var fanPrice = 9;
+			var deskPrice = 120;
+			var alarmPrice = 14;
+			var lampPrice = 30;
+		
+			var fanName = " The fan is worth $9";
+			var deskName = " The desk is worth $120";
+			var alarmName = " the alarm is worth $14";
+			var lampName = " the lamp is worth $30";
+		
+			document.write((fanName)+ " " + (fanPrice));
+		
+			</script>
+		</head>
+		<body>
+			<p> the fan is worth $9 </p>
+		</body>
+		</html>
