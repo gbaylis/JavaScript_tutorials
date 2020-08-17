@@ -1,0 +1,25 @@
+<!-- gbaylis | JS | input type | onclick and mouse over -->
+  <!DOCTYPE html>
+	<html lang="en">
+	<head>
+	
+		<meta charset="utf-8"/>
+		<title> A cup of morning Javascript </title>
+		<script type="text/javascript">
+		
+			</script>
+		</head>
+		<body>
+			
+<!-- JS code, if you click on this box, the user sees a pop up message-->			
+			<form>
+				<input type="button" value="click me" onclick="alert('This means you clicked the box');"/>
+			</form>
+
+<!-- JS code, if you hover your mouse over this box, the user sees a pop up message-->			
+             <form>
+				<input type="button" value="hover pointer over me" onmouseover="alert('This means, you hovered the pointer over hte box');"/>
+			</form>
+	
+		</body>
+		</html>
