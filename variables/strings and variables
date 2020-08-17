@@ -1,0 +1,53 @@
+/*
+gbaylis | Javascript
+Concatenation
+*/
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<title> Java scripting, a string </title>
+	<script type="text/javascript">
+		
+		document.write("<h1> this is the larger header </h1>");
+		
+		// var name = " James Bond";
+		
+		// var message = " my name is \"bond James Bond\"";
+		
+		var sentence1 = " The original James Bond novels are written by Ian Flemming, but other writers have carried the legacy";
+		
+		var sentence2 = " A list of some of the James Bond movies and books";
+		
+		// Casino Royale book 1953 by Iam Flemming
+		var sentence3 = " Casino Royale, book";
+		
+		// Casino Royale, fim 2006, Daniel Craig
+		var sentence4 = " Casino Royale, film";
+		
+		// Goldfinger, film 1964, Sean Connery    book by Ian Flemming 1959
+		var sentence5 = " Goldfinger book";
+		
+		var sentence6 = " Goldfinger movie";
+		
+		// Golden eye, movie 1995, Pierce Brosnan, first 007 movie to not be based of a written work by IF
+		// thre is a novelization of the script by John Gardner
+		var sentence7 = " Golden Eye";
+		
+		// The World is not enough, movie 1999 Pierce Brosnan, book 1999 by Raymond Benson
+		var setence8 = " The world is not Enough";
+		
+		var sentence9 = " John Gardner wrote 16 James Bond novels"
+		
+		document.write( sentence1 );
+		
+	
+		
+		document.write( sentence3 + " was written by Ian Flemming in 1953" );
+		
+		</script>
+	</head>
+	
+</body>
+
+</html>		
