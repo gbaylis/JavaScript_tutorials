@@ -1,14 +1,14 @@
 const quizData = [
     {
-    question: "What is the capital of California?",
-    a: " Orick",
+    question: "Question 1: \n What is the capital of California?",
+    a: "Orick",
     b: "Redding",
     c: "San Francisco",
     d:" Sacramento",
     correct: "d",
     },
     {
-    question: "What is the state Animal of California?",
+    question: "Question 2: \n What is the state Animal of California?",
     a: "Ostrich",
     b: "Tiger",
     c: "Grizzly Bear",
@@ -16,7 +16,7 @@ const quizData = [
     correct: "c",
     },
     {
-    question: "What California city as the largest population?",
+    question: "Question 3: \n Which California city has the largest population?",
     a: "Los Angeles",
     b: "San Jose",
     c: "San Francsico",
@@ -24,7 +24,7 @@ const quizData = [
     correct: "a",
     },
     {
-        question: "by acres, which is the largest California state park?",
+        question: "Question 4: \n by acres, which is the largest California state park?",
     a: "Humboldt Redwoods",
     b: "Anza-Borrego Desert",
     c: "Lake Oroville",
@@ -72,7 +72,6 @@ function getSelected() {
 	return answer;
 }
 
-
 function deselectAnswers() {
     answerEls.forEach((answerEl) => {
         answerEl.checked = false;
@@ -88,7 +87,6 @@ submitBtn.addEventListener("click", () => {
             score++;
         }
 
-
 currentQuiz++;
         if (currentQuiz < quizData.length) {
             loadQuiz();
@@ -100,6 +98,6 @@ currentQuiz++;
             `;
         }
     }
-});  
+});
 
 
