@@ -96,7 +96,7 @@ currentQuiz++;
             quiz.innerHTML = `
                <h2>You got ${score}/${quizData.length} questions correct.</h2>
                 
-                <button onclick="location.reload()">Reload</button>
+                <button onclick="location.reload()">Try Again?</button>
             `;
         }
     }
